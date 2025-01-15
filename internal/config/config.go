@@ -31,7 +31,7 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/vppinit"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/vppinit"
 )
 
 // Config - configuration for cmd-forwarder-vpp

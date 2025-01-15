@@ -21,12 +21,12 @@ package tests
 import (
 	"context"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 func (f *ForwarderTestSuite) TestHealthCheck() {

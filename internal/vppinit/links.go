@@ -32,7 +32,7 @@ import (
 	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 func initDevice(ctx context.Context, vppConn api.Connection, tunnelIP net.IP, device string, errChan chan error) {

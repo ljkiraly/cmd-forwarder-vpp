@@ -28,7 +28,7 @@ import (
 	"github.com/vishvananda/netlink"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
 )
 
 const (

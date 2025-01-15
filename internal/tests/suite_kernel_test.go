@@ -34,19 +34,19 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/cls"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/endpoint"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms"
-	kernelmechanism "github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms/sendfd"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/ipam/point2pointipam"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/endpoint"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms"
+	kernelmechanism "github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms/kernel"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms/sendfd"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/ipam/point2pointipam"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 
 	"github.com/thanhpk/randstr"
 
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/tests/ns"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/tests/ns"
 )
 
 type verifiable interface {

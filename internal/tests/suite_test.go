@@ -30,7 +30,7 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/config"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/config"
 )
 
 type ForwarderTestSuite struct {

@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/yamlhelper"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/yamlhelper"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
 )
 
 const linuxIfMaxLength int = 15

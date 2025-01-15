@@ -49,10 +49,10 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/registry"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/tools/spiffejwt"
 )
 
 func (f *ForwarderTestSuite) TestCombinations() {

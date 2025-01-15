@@ -40,19 +40,19 @@ import (
 	"github.com/networkservicemesh/vpphelper"
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/expire"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	registryrecvfd "github.com/networkservicemesh/sdk/pkg/registry/common/recvfd"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	registrychain "github.com/networkservicemesh/sdk/pkg/registry/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/registry/common/begin"
+	"github.com/ljkiraly/sdk/pkg/registry/common/expire"
+	"github.com/ljkiraly/sdk/pkg/registry/common/memory"
+	registryrecvfd "github.com/ljkiraly/sdk/pkg/registry/common/recvfd"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
+	registrychain "github.com/ljkiraly/sdk/pkg/registry/core/chain"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/tools/spiffejwt"
+	"github.com/ljkiraly/sdk/pkg/tools/spire"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/vppinit"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/vppinit"
 )
 
 func (f *ForwarderTestSuite) SetupSuite() {

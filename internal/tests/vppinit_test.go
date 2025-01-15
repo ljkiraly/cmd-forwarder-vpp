@@ -44,13 +44,13 @@ import (
 	"google.golang.org/grpc/credentials"
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/config"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/config"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/tools/nshandle"
+	"github.com/ljkiraly/sdk/pkg/registry/common/memory"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/tools/spire"
 )
 
 // This test shows that the AF_PACKET forwarder interface is capable of receiving data after creation

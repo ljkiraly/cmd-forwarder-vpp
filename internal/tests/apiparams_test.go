@@ -32,7 +32,7 @@ import (
 
 	"github.com/networkservicemesh/govpp/binapi/af_packet"
 
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/vppinit"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/vppinit"
 )
 
 const (

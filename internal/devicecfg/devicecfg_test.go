@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cmd-forwarder-vpp/internal/devicecfg"
+	"github.com/ljkiraly/cmd-forwarder-vpp/internal/devicecfg"
 )
 
 const (

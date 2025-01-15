@@ -27,22 +27,22 @@ import (
 	"go.fd.io/govpp/api"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/client"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/client"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/ipam/point2pointipam"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/authorize"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms"
+	"github.com/ljkiraly/sdk/pkg/networkservice/ipam/point2pointipam"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/endpoint"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/ljkiraly/sdk/pkg/networkservice/chains/endpoint"
+	"github.com/ljkiraly/sdk/pkg/tools/token"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/connectioncontext"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/wireguard"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/pinhole"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/up"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/connectioncontext"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/wireguard"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/pinhole"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/up"
 )
 
 type wireguardVerifiableEndpoint struct {

@@ -32,8 +32,8 @@ import (
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"github.com/networkservicemesh/govpp/binapi/ip_types"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/types"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 var ipV4zeroPrefix ip_types.Prefix = types.ToVppPrefix(&net.IPNet{
