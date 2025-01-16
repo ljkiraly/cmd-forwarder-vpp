@@ -33,4 +33,4 @@ jobs:
     needs: [get-tag, check-gomod-deps]
     uses: networkservicemesh/.github/.github/workflows/release.yaml@main
     secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
+      token: ${{ secrets.BOT_TOKEN }}
