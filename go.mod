@@ -12,11 +12,11 @@ require (
 	github.com/golang/protobuf v1.5.3
 	github.com/google/uuid v1.3.1
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/ljkiraly/sdk v0.0.0-20250115102438-541bd4408ce0
-	github.com/ljkiraly/sdk-k8s v0.0.0-20250115110545-4a7e71385562
-	github.com/ljkiraly/sdk-kernel v0.0.0-20250115105815-b036032a9b2a
-	github.com/ljkiraly/sdk-sriov v0.0.0-20250115111752-09d1c3c8f8b0
-	github.com/ljkiraly/sdk-vpp v0.0.0-20250115112321-64fb8bbe4bea
+	github.com/ljkiraly/sdk v0.4.4
+	github.com/ljkiraly/sdk-k8s v0.4.4
+	github.com/ljkiraly/sdk-kernel v0.4.4
+	github.com/ljkiraly/sdk-sriov v0.4.4
+	github.com/ljkiraly/sdk-vpp v0.4.4
 	github.com/networkservicemesh/api v1.14.2
 	github.com/networkservicemesh/govpp v0.0.0-20240328101142-8a444680fbba
 	github.com/networkservicemesh/vpphelper v0.0.0-20241209033247-bcb5c25a9f29
