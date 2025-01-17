@@ -25,7 +25,7 @@ jobs:
 
   check-gomod-deps:
     needs: get-tag
-    uses: networkservicemesh/.github/.github/workflows/check-gomod-deps.yaml@main
+    uses: ljkiraly/nsm-github/.github/workflows/check-gomod-deps.yaml@main
     with:
       tag: ${{ needs.get-tag.outputs.tag }}
 
